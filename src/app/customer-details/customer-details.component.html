@@ -1,0 +1,5 @@
+
+<div *ngFor="let customer of customerDetails; let i=index">
+   <p> {{i+1}}.CustomerName is {{customer.getCustomerName()}} </p>
+     <p> Balance is {{customer.getBalance()}} </p>
+</div>
