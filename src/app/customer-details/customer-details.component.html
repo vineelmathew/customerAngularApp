@@ -2,4 +2,6 @@
 <div *ngFor="let customer of customerDetails; let i=index">
    <p> {{i+1}}.CustomerName is {{customer.getCustomerName()}} </p>
      <p> Balance is {{customer.getBalance()}} </p>
+<p>reverse of the name is {{customer.getCustomerName()|reversename}}</p>
+<p>Length is {{customer.getCustomerName()|stringlength}}</p>
 </div>
